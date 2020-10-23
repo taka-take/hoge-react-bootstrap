@@ -29,7 +29,7 @@ export const Sheet = () => {
                 <Form.Label className="mt-2">日</Form.Label>
               </Col>
             </Row>
-            <Row>
+            <Row className="mb-4">
               <Col sm={4}>
                 <InputGroup>
                   <Form.Control as="select" custom></Form.Control>
@@ -47,6 +47,38 @@ export const Sheet = () => {
                   <Form.Control as="select" custom></Form.Control>
                   <InputGroup.Text>日</InputGroup.Text>
                 </InputGroup>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={4}>
+                <Row>
+                  <Col sm={10}>
+                    <Form.Control as="select" custom></Form.Control>
+                  </Col>
+                  <Col sm={2}>
+                    <Form.Label className="mt-2">年</Form.Label>
+                  </Col>
+                </Row>
+              </Col>
+              <Col sm={4}>
+                <Row>
+                  <Col sm={10}>
+                    <Form.Control as="select" custom></Form.Control>
+                  </Col>
+                  <Col sm={2}>
+                    <Form.Label className="mt-2">月</Form.Label>
+                  </Col>
+                </Row>
+              </Col>
+              <Col sm={4}>
+                <Row>
+                  <Col sm={10}>
+                    <Form.Control as="select" custom></Form.Control>
+                  </Col>
+                  <Col sm={2}>
+                    <Form.Label className="mt-2">日</Form.Label>
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </Form.Group>
