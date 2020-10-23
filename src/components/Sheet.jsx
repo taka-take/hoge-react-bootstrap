@@ -65,7 +65,7 @@ export const Sheet = () => {
                   <Col sm={11}>
                     <Form.Control as="select" custom></Form.Control>
                   </Col>
-                  <Col sm={1} className="px=0">
+                  <Col sm={1} className="px-0">
                     <Form.Label className="mt-2">月</Form.Label>
                   </Col>
                 </Row>
