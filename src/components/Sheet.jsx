@@ -52,30 +52,30 @@ export const Sheet = () => {
             <Row>
               <Col sm={4}>
                 <Row>
-                  <Col sm={10}>
+                  <Col sm={11}>
                     <Form.Control as="select" custom></Form.Control>
                   </Col>
-                  <Col sm={2}>
+                  <Col sm={1} className="px-0">
                     <Form.Label className="mt-2">年</Form.Label>
                   </Col>
                 </Row>
               </Col>
               <Col sm={4}>
                 <Row>
-                  <Col sm={10}>
+                  <Col sm={11}>
                     <Form.Control as="select" custom></Form.Control>
                   </Col>
-                  <Col sm={2}>
+                  <Col sm={1} className="px=0">
                     <Form.Label className="mt-2">月</Form.Label>
                   </Col>
                 </Row>
               </Col>
               <Col sm={4}>
                 <Row>
-                  <Col sm={10}>
+                  <Col sm={11}>
                     <Form.Control as="select" custom></Form.Control>
                   </Col>
-                  <Col sm={2}>
+                  <Col sm={1} className="px-0">
                     <Form.Label className="mt-2">日</Form.Label>
                   </Col>
                 </Row>
